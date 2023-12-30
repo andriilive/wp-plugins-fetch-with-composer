@@ -1,0 +1,39 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.admincolumns.com"
+    },
+    {
+      "type": "composer",
+      "url": "https://connect.advancedcustomfields.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "extra": {
+    "installer-paths": {
+      "plugins/{$name}/": ["type:wordpress-plugin"]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "composer/installers": "*",
+    "wpengine/advanced-custom-fields-pro": "*",
+    "admin-columns/ac-addon-acf": "*",
+    "admin-columns/ac-addon-woocommerce": "*",
+    "admin-columns/ac-addon-buddypress": "*",
+    "admin-columns/ac-addon-events-calendar": "*",
+    "admin-columns/ac-addon-jetengine": "*",
+    "admin-columns/ac-addon-pods": "*",
+    "admin-columns/ac-addon-metabox": "*",
+    "admin-columns/ac-addon-types": "*",
+    "admin-columns/ac-addon-yoast-seo": "*",
+    "admin-columns/ac-addon-gravityforms": "*"
+  }
+}
