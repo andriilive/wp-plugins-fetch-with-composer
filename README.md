@@ -1,5 +1,8 @@
 # Download WP pro plugins with composer
 
+[![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine)&nbsp;
+[![GitHub @andriilive](https://img.shields.io/github/followers/andriilive?label=@andriilive&style=social)](https://www.github.com/andriilive)
+
 Downloads the `pro` versions of common WP plugins from the [WPackagist](https://wpackagist.org/) repository.
 
 ## `auth.json` example
